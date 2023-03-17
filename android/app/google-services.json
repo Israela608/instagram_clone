@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "964181227971",
+    "project_id": "instagram-clone-israel",
+    "storage_bucket": "instagram-clone-israel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964181227971:android:19f50b54834355327ee576",
+        "android_client_info": {
+          "package_name": "se.pixolity.instagram_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964181227971-6h64bt2vbtpdk9u1dotrt7giaiac9feb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEm5h-UT4rMAksefArnJfO3XHdME3BP3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964181227971-6h64bt2vbtpdk9u1dotrt7giaiac9feb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
