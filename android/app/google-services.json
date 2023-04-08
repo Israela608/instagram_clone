@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "964181227971-6h64bt2vbtpdk9u1dotrt7giaiac9feb.apps.googleusercontent.com",
+          "client_id": "964181227971-bfldqsh2snaq19jk5bps1vr0rbs6mv25.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "se.pixolity.instagram_clone",
+            "certificate_hash": "b4eef71d729e1c36afc35d017ac5ba95d51c8655"
+          }
+        },
+        {
+          "client_id": "964181227971-hpg4i2em32anrl1m5cufoompiemstnpa.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -29,6 +37,13 @@
             {
               "client_id": "964181227971-6h64bt2vbtpdk9u1dotrt7giaiac9feb.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "964181227971-5mgp6m3fko070rqa2122c9mnr6b2gc8b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "se.pixolity.instagramClone"
+              }
             }
           ]
         }
