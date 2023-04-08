@@ -13,7 +13,6 @@ class Authenticator {
   bool get isAlreadyLoggedIn => userId != null;
   String get displayName => currentUser?.displayName ?? '';
   String? get email => currentUser?.email;
-  final String me = '';
 
   Future<void> logOut() async {
     await FirebaseAuth.instance.signOut();
