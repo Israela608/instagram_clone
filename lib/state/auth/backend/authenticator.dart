@@ -5,7 +5,6 @@ import 'package:instagram_clone/state/auth/constants/constants.dart';
 import 'package:instagram_clone/state/auth/models/auth_result.dart';
 import 'package:instagram_clone/state/posts/typedefs/user_id.dart';
 
-//Authenticator
 class Authenticator {
   const Authenticator();
 
@@ -14,6 +13,7 @@ class Authenticator {
   bool get isAlreadyLoggedIn => userId != null;
   String get displayName => currentUser?.displayName ?? '';
   String? get email => currentUser?.email;
+  final String me = '';
 
   Future<void> logOut() async {
     await FirebaseAuth.instance.signOut();
