@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "964181227971-bfldqsh2snaq19jk5bps1vr0rbs6mv25.apps.googleusercontent.com",
+          "client_id": "964181227971-te4297of3f2ena4fd9pse6pmfb9d2rfj.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "se.pixolity.instagram_clone",
-            "certificate_hash": "b4eef71d729e1c36afc35d017ac5ba95d51c8655"
+            "certificate_hash": "aa086d15f7a92ab33b421cce1dca68287540a75b"
           }
         },
         {
