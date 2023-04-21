@@ -1,5 +1,9 @@
 # instagram_clone
 
+This project is a mobile app built using Flutter that replicates key features of Instagram and incorporates unique features, with state management implemented using Riverpod and backed by Firebase.
+
+## Description
+
 Welcome to my Instagram clone app! This is a mobile application built using Flutter, an open-source mobile application development framework created by Google.
 
 The app aims to replicate some of the key features of Instagram, such as photo and video sharing, commenting and liking posts, and direct messaging.
