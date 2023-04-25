@@ -8,6 +8,7 @@ import 'package:instagram_clone/state/auth/provider/auth_state_provider.dart';
 import 'package:instagram_clone/state/auth/provider/is_logged_in_provider.dart';
 import 'package:instagram_clone/state/providers/is_loading_provider.dart';
 import 'package:instagram_clone/views/components/loading/loading_screen.dart';
+import 'package:instagram_clone/views/login/login_view.dart';
 
 import 'firebase_options.dart';
 
@@ -98,35 +99,6 @@ class MainView extends StatelessWidget {
             ),
           );
         },
-      ),
-    );
-  }
-}
-
-// For when you are not logged in
-class LoginView extends ConsumerWidget {
-  const LoginView({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Login View'),
-        centerTitle: true,
-      ),
-      body: Column(
-        children: [
-          TextButton(
-            onPressed: () =>
-                ref.read(authStateProvider.notifier).loginWithGoogle(),
-            child: const Text('Sign in with Google'),
-          ),
-          TextButton(
-            onPressed: () =>
-                ref.read(authStateProvider.notifier).loginWithFacebook(),
-            child: const Text('Sign in with Facebook'),
-          ),
-        ],
       ),
     );
   }
